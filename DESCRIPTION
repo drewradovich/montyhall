@@ -1,0 +1,19 @@
+Package: montyhall
+Title: Run a Simulation of the Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Drew", "Radovich", , "drew.sradovich@gmail.com", role = c("aut", "cre"))
+Description: This package allows a user to simulate a Monty Hall game from the game show
+"Let's Make a Deal". The game consists of three doors, one with a car behind it and two with goats.
+A player starts the game by selecting a door which then prompts the host to reveal a goat 
+behind one of the two remaining doors. Players then have the option to stay with their original
+choice or switch doors. This package contains functions to create a new game by randomly assigning
+prizes to doors, select a door, reveal a goat, stay or switch doors and determine the outcome of the game. These 
+are bundled together so a user can run a simulation and determine the best strategy for winning.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Depends:
+  dplyr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
